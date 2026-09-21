@@ -22,10 +22,10 @@ This project is an engineering module built by **DJIDEL Abdelali Rayan** (System
 
 ```mermaid
 graph TD
-    Buttons[Floor Call Buttons & Limit Sensors] --> Grafcet[Grafcet / Sequential State Machine]
-    Grafcet --> S71200[Siemens S7-1200 PLC Controller]
-    S71200 --> VFD[VFD Motor Drive & Door Actuators]
-    VFD --> Cabin[Elevator Cabin Position State]
+    Buttons["Floor Call Buttons & Limit Sensors"] --> Grafcet["Grafcet / Sequential State Machine"]
+    Grafcet --> S71200["Siemens S7-1200 PLC Controller"]
+    S71200 --> VFD["VFD Motor Drive & Door Actuators"]
+    VFD --> Cabin["Elevator Cabin Position State"]
 ```
 
 ---
